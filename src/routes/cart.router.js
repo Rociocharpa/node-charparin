@@ -10,7 +10,7 @@ const products = [
 // Array simulado de carritos
 const carts = [];
 
-// Middleware de autenticación simulado
+// Middleware de autenticación simuladoo
 const auth = (req, res, next) => {
     console.log('Autenticación...');
     next(); // Simulación de autenticación exitosa
